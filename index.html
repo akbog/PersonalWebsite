@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" type="text/css" href="CSS/experience.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/skills.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/projects.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/layout.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/contact.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/landing.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/main.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/navbar.css"></link>
+  <link rel="stylesheet" type="text/css" href="CSS/section-headers.css"></link>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <script src="https://kit.fontawesome.com/2c301de3d2.js" crossorigin="anonymous"></script>
+  </head>
+  <body class = "body-class">
+    <div class = "header">
+      <!-- <div class = "title">
+        <h1><a href="#landing">A|B</a></h1>
+      </div> -->
+      <nav class="stroke">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="grid-container">
+      <div class = "wrapper">
+        <div id = "landing" class="landing" data-aos="zoom-out">
+          <div class = "landing-top">
+          </div>
+          <div class = "landing-text-name">
+            <span class = "landing-text-name-size">Hey I'm</span><br>Alexander Bogdanowicz
+          </div>
+          <div class = "code-text">
+            <a href="#about">
+              <span class = "blinking">explore.../</span>
+            </a>
+          </div>
+          <div class = "landing-background">
+          </div>
+          <div class = "landing-bottom">
+          </div>
+          <!-- <div class = "landing-see-more">
+            <a href="#about">
+                text<i class="fas fa-angle-double-down landing-icon"></i>
+            </a>
+          </div> -->
+            <!-- <div class = "about-me">
+              <a class = "hover-title-about" href="#about" target="_blank">ABOUT<br>ME</a>
+              <figure class="hover">
+                <img src="Images/waterfall.jpeg" class = "gallery__img">
+              </figure>
+            </div>
+            <div class="recent-work">
+              <a class = "hover-title-experience" href="#" target="_blank">RECENT<br>WORK</a>
+              <figure class="hover">
+                <img src="Images/tandon.jpeg" class = "gallery__img">
+              </figure>
+            </div>
+            <div class="research">
+              <a class = "hover-title-research" href="#" target="_blank">RESEARCH</a>
+              <figure class = "hover">
+                <img src="Images/tedx.jpeg" class = "gallery__img">
+              </figure>
+            </div> -->
+        </div>
+        <div id = "about" class="about-section" data-aos="zoom-out">
+          <div class = "sec-line-left">
+          </div>
+          <div class = "project-text">
+            <h2 class = "project-text-child">
+                About Me
+            </h2>
+          </div>
+          <div class = "sec-line-right">
+          </div>
+          <!-- <div class = "sec-line-about">
+          </div>
+          <div class = "about-text">
+            <h2 class = "about-text-child">
+                Who am I
+            </h2>
+          </div> -->
+          <!-- <div id = "word-cloud">
+          </div> -->
+          <div class = "about-img-holder">
+            <img src="Images/business-social-face-1.jpeg">
+          </div>
+          <div class = "description">
+            <p>I'm a software-oriented Data Scientist, graduating from NYU Shanghai in May 2020.
+
+            <br><br>Over the last 4 years, I've had the opportunity to work and perform research in 3 countries across 4 different industries.
+
+            <br><br>In and out of University, I'm focused on developing my skills as a young Data Scientist, most recently through work in developing deployment-ready data products.
+
+            <br><br>Here's what I've been up to &#160;<a href="#project" class = "no-under">
+              <i class="fas fa-angle-double-down bio-link-icon"></i>
+            </a>
+            </p>
+          </div>
+
+        </div>
+        <div id = "experience" class="experience-section">
+          <div class = "sec-line-left" data-aos="fade">
+          </div>
+          <div class = "project-text">
+            <h2 class = "project-text-child" data-aos="fade">
+                Here's where I've been
+            </h2>
+          </div>
+          <div class = "sec-line-right" data-aos="fade">
+          </div>
+          <div class = "grid-item-1" data-aos="fade-right">
+            <div class = "working-images">
+              <img src="Images/nyu-data-science.jpeg" class = "gallery__img__exp">
+            </div>
+            <div class = "working-title">
+              NYU Urban Data Science
+            </div>
+            <div class = "working-position">
+              Research Assistant, Oct 2019 - Current
+            </div>
+            <div class = "working-location">
+              Shanghai, CN
+            </div>
+            <div class = "working-description">
+              This fall I began research on dynamic urban geo-topic modeling under Professor ChengHe Guan with the goal of extracting "hot-topics" in urban development through public expression on Twitter. I developed a custom pipeline to preprocess, transform, & stream our dataset, gaining in-depth experience with the implementation of the NLTK and scikit-learn libraries.
+            </div>
+          </div>
+          <div class = "grid-item-2" data-aos="fade-right">
+            <div class = "working-images">
+              <img src="Images/pwc-logo.svg" class = "gallery__img__exp bg-pwc">
+            </div>
+            <div class = "working-title">
+              PwC Advisory
+            </div>
+            <div class = "working-position">
+              Data & Analytics Intern, Jun 2019 - Aug 2019
+            </div>
+            <div class = "working-location">
+              New York, NY
+            </div>
+            <div class = "working-description">
+              I was tasked with the end-to-end development of python-based financial transaction screening automations and transaction data quality assessment tools.
+              As part of the internship, I Implemented an automated SQL DB quality evaluation process utilizing a Python ORM (SQLAlchemy) to determine client DB statistical properties.
+              In my short time, I was able to spearhead discussions with key account stakeholders regarding NLP and ML applications in PwC's Financial Crimes Unit.
+            </div>
+          </div>
+          <div class = "grid-item-3" data-aos="fade-right">
+            <div class = "working-images">
+              <img src="Images/ms-front-office.jpeg" class = "gallery__img__exp">
+            </div>
+            <div class = "working-title">
+              Morgan Stanley
+            </div>
+            <div class = "working-position">
+              Risk Management Analyst, Nov 2018 - May 2019
+            </div>
+            <div class = "working-location">
+              New York, NY
+            </div>
+            <div class = "working-description">
+              To help support myself financially, I took up a part-time role at Morgan Stanley (22hrs/week) while enrolled full time in University.
+              I split my time between two teams, Vendor Management where I performed vendor database assessments to identify internall cross-unit discrepancies,
+              and Anti-Money Laundering where I performed associate-level negative news screenings, investigative functions, and built excel-based automations.
+            </div>
+          </div>
+          <div class = "grid-item-4" data-aos="fade-right">
+            <div class = "working-images">
+              <img src="Images/bdo-svg.svg" class = "gallery__img__exp bg-bdo">
+            </div>
+            <div class = "working-title">
+              BDO Consulting
+            </div>
+            <div class = "working-position">
+              Corporate Finance Intern, Jun 2018 - Aug 2018
+            </div>
+            <div class = "working-location">
+              Tel-Aviv, Israel
+            </div>
+            <div class = "working-description">
+              BDO was the culmination of my studies in Finance. I performed comparables analysis, financial modeling, and valuations for leading Israeli tech startups and companies in the biotech, defense, and agriculture industries.
+              With my experience working in China, I produced a Purchase Price Allocation study for an Asian contract development biotech merger.
+              As a side-project, I developed an R-based program for comparable valuations built on Yahoo Finance and Bloomberg APIs.
+            </div>
+          </div>
+          <div class = "grid-item-5" data-aos="fade-right">
+            <div class = "working-images">
+              <img src="Images/tavtech.jpeg" class = "gallery__img__exp">
+            </div>
+            <div class = "working-title">
+              TavTech
+            </div>
+            <div class = "working-position">
+              Coding Fellow, Dec 2017 - Jan 2018
+            </div>
+            <div class = "working-location">
+              Tel-Aviv, Israel
+            </div>
+            <div class = "working-description">
+              The TavTech fellowship was my first real forray into the worlds of Big Data and AI.
+              In addition to learning the foundations of Big Data tools (e.g. Apache Spark, Hadoop, HDFS), the fellowship culminated in a 48-hour hackathon, where I helped to develop
+              an application using machine vision to assist individuals with learning-disabilities.
+            </div>
+          </div>
+          <div class = "grid-item-6" data-aos="fade-right">
+            <div class = "working-images">
+              <img src="Images/first-build-logo.jpeg" class = "gallery__img__exp bg-firstbuild">
+            </div>
+            <div class = "working-title">
+              GE Applicances: FirstBuild
+            </div>
+            <div class = "working-position">
+              Project Management Intern, Apr 2017 - Jul 2017
+            </div>
+            <div class = "working-location">
+              Shanghai, CN
+            </div>
+            <div class = "working-description">
+              My first internship as an undergrad in Shanghai, FirstBuild was a phenomenal opportunity to understand start-up culture as it exists in China.
+              As an intern, I coordinated weekly Thinktank sessions with FirstBuild's CEO and upper-level staff concerning minimum viable products
+              (FirstBuild functioned as a "Prototype Incubator"). I also standardized company brand materials across their many divisions.
+            </div>
+          </div>
+        </div>
+        <div id = "project" class="project-section">
+          <div class = "sec-line-left" data-aos="fade">
+          </div>
+          <div class = "project-text">
+            <h2 class = "project-text-child" data-aos="fade">
+                How I keep busy
+            </h2>
+          </div>
+          <div class = "sec-line-right" data-aos="fade">
+          </div>
+          <div class = "left-grid-1" data-aos="fade-right">
+            <div class = "left-project-images">
+              <img src="Images/map.jpeg" class = "gallery__img__pro">
+            </div>
+            <div class = "left-project-title">
+              Urban Data Science Capstone
+            </div>
+            <div class = "left-project-subtitle">
+              NLP Undergraduate Capstone
+            </div>
+            <div class = "left-project-description">
+              Updates to come. Stay tuned! Feel free to see my progress on GitHub.
+            </div>
+            <div class = "left-button-git">
+              <a href="https://github.com/akbog/urban-data" class = "git-text">
+                <br>
+                <i class="fab fa-github git-icon"></i>
+                GitHub
+                <br><br>
+              </a>
+            </div>
+            <div class = "left-button-paper">
+              <a href="#blank" class = "git-text">
+                <br>
+                <i class="fa fa-file git-icon"></i>
+                &#160;TBD
+                <br><br>
+              </a>
+            </div>
+            <!-- <div class = "left-button-demo">
+              <a href="#blank" class = "git-text">
+                <br>
+                <i class="fa fa-link git-icon"></i>
+                &#160;TBD
+                <br><br>
+              </a>
+            </div> -->
+          </div>
+          <div class = "right-grid-2" data-aos="fade-left">
+            <div class = "right-project-images">
+              <img src="Images/healthub.jpeg" class = "gallery__img__pro">
+            </div>
+            <div class = "right-project-title">
+              HealthHub
+            </div>
+            <div class = "right-project-subtitle">
+              Flask Based Full-Stack Application
+            </div>
+            <div class = "right-project-description">
+              HealthHub represents a semester-long team project for CSCI-410 Software Engineering, where I primarily played the role of a back-end engineer, structuring the database (i.e. MAMP)
+              as well as developing the MVC framework (Model: SQLAlchemy, View: Flask-Blueprints, Controller: Flask Instances), based on the popular Flask web app micro-framework.
+              The application includes an appointment scheduling system, a social forum, a file storage system, record-keeping, and an automated asynchronous notification system built on celery & redis.
+            </div>
+            <div class = "right-button-git">
+              <a href="https://github.com/akbog/HealthHub" class = "git-text">
+                <br>
+                <i class="fab fa-github git-icon"></i>
+                GitHub
+                <br><br>
+              </a>
+            </div>
+            <div class = "right-button-paper">
+              <a href="./Files/HH-Final-Documentation.pdf" class = "git-text">
+                <br>
+                <i class="fa fa-file git-icon"></i>
+                &#160;Paper
+                <br><br>
+              </a>
+            </div>
+            <div class = "right-button-demo">
+              <a href="./Files/HH-Final-Presentation.pdf" class = "git-text">
+                <br>
+                <i class="fas fa-file-powerpoint git-icon"></i>
+                &#160;PPT
+                <br><br>
+              </a>
+            </div>
+          </div>
+          <div class = "left-grid-3" data-aos="fade-right">
+            <div class = "left-project-images">
+              <img src="Images/movielens.jpeg" class = "gallery__img__pro">
+            </div>
+            <div class = "left-project-title">
+              MovieLens Visualization
+            </div>
+            <div class = "left-project-subtitle">
+              Data Pre-Processing and Information Visualization
+            </div>
+            <div class = "left-project-description">
+              The MovieLens Dataset has been the subject of various kaggle competitions and is often used for educational purposes.
+              In this project, a friend and I decided to put our data visualization skills to the test (e.g. Python, D3.js, & HTML/CSS) and design visualizations that would
+              convey aspects of the dataset such as the historical relations between film revenues, release dates, and ranks, as well as provide
+              for a time-series snapshot of the industry (e.g. top grossing studios vs. films). We also used Singular Value Decomposition and
+              k-means clustering for classifying user tastes & preferences. Check out the Demo Link!
+            </div>
+            <div class = "left-button-git">
+              <a href="https://github.com/akbog/movielens" class = "git-text">
+                <br>
+                <i class="fab fa-github git-icon"></i>
+                GitHub
+                <br><br>
+              </a>
+            </div>
+            <div class = "left-button-paper">
+              <a href="./Files/InfoVis-Final-Paper.pdf" class = "git-text">
+                <br>
+                <i class="fa fa-file git-icon"></i>
+                &#160;Paper
+                <br><br>
+              </a>
+            </div>
+            <div class = "left-button-demo">
+              <a href="./Files/InfoVisualizationFinal.html" class = "git-text">
+                <br>
+                <i class="fa fa-link git-icon"></i>
+                &#160;Demo
+                <br><br>
+              </a>
+            </div>
+          </div>
+          <div class = "right-grid-4" data-aos="fade-left">
+            <div class = "right-project-images">
+              <img src="Images/spotify.jpeg" class = "gallery__img__pro">
+            </div>
+            <div class = "right-project-title">
+              Predictive Analytics: Spotify Brand Mentions
+            </div>
+            <div class = "right-project-subtitle">
+              Graduate Big Data Science Course Semester Project
+            </div>
+            <div class = "right-project-description">
+              In this project, we analyzed the daily occurrences of luxury brand mentions in Spotify's most
+              streamed songs and modeled the relationship between a brand's occurrences in popular songs with the
+              brand's popularity, as measured by Google Trends. We utilized Stanford Java Core-NLP for lemma generation,
+              LDA for topic generation, and ARIMA (e.g. a statistical model for measuring volatility), to predict brand popularity.
+              Technologies used include: Java, Core-NLP, Apache-Spark, High-performance Computing, & Python for web scrapping and data cleansing.
+            </div>
+            <div class = "right-button-git">
+            </div>
+            <div class = "right-button-paper">
+              <a href="https://github.com/akbog/SpotifyBrandMentions" class = "git-text">
+                <br>
+                <i class="fab fa-github git-icon"></i>
+                GitHub
+                <br><br>
+              </a>
+            </div>
+            <div class = "right-button-demo">
+              <a href="./Files/SpotifyBrandMentions-Final-Report.pdf" class = "git-text">
+                <br>
+                <i class="fa fa-file git-icon"></i>
+                &#160;Paper
+                <br><br>
+              </a>
+            </div>
+          </div>
+          <div class = "left-grid-5" data-aos="fade-right">
+            <div class = "left-project-images">
+              <img src="Images/stocks.jpeg" class = "gallery__img__pro">
+            </div>
+            <div class = "left-project-title">
+              Cryptocurrency Asset Classification
+            </div>
+            <div class = "left-project-subtitle">
+              Machine Learning Final Project
+            </div>
+            <div class = "left-project-description">
+              This project grew out of raw curiosity for the cryptocurrency market at the end of
+              2017, when the cyrpto market had peaked, collapsing in February of 2018, when it exhibited risk-asset like tendencies. I was curious as to what asset classes crypto most resembled.
+              To get there, I implemented advanced statistical models (e.g. GARCH and ARIMA) to gather features that measured volatility of assets, and paired these features with volume and return data
+              to build SVMs for predicting asset returns, and ANNs for classifying Assets. I concluded that Bitcoin behavior most resembled traditional currencies over commodities (e.g. gold) with inconclusive results in regards to SVMs.
+            </div>
+            <div class = "left-button-git">
+              <a href="https://github.com/akbog/CryptocurrencyAssetClassification" class = "git-text">
+                <br>
+                <i class="fab fa-github git-icon"></i>
+                GitHub
+                <br><br>
+              </a>
+            </div>
+            <div class = "left-button-paper">
+              <a href="./Files/ML-Project-Write-Up.pdf" class = "git-text">
+                <br>
+                <i class="fa fa-file git-icon"></i>
+                &#160;Paper
+                <br><br>
+              </a>
+            </div>
+            <div class = "left-button-demo">
+              <a href="./Files/Machine-Learning-Final-Project.pdf" class = "git-text">
+                <br>
+                <i class="fas fa-file-powerpoint git-icon"></i>
+                &#160;PPT
+                <br><br>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id = "skills" class = "skills-section" data-aos="fade-up">
+          <div class = "sec-line-left">
+          </div>
+          <div class = "skills-text">
+            <h2 class = "skills-text-child">
+                What I'm good at
+            </h2>
+          </div>
+          <div class = "sec-line-right">
+          </div>
+          <div class = "skills-grid-1">
+            <div class = "skills-grid-icon">
+              <i class="fas fa-chart-bar git-icon"></i>
+            </div>
+            <div class = "skills-grid-title">
+              Data<br>Science
+            </div>
+            <div class = "skills-grid-description">
+              Experienced in Natural Language Processing, Machine Learning (e.g. Regression, SVMs, ANNs etc.), Statistical Modeling (e.g. ARIMA, GARCH), & in building data pipelines for applications.
+            </div>
+          </div>
+          <div class = "skills-grid-2">
+            <div class = "skills-grid-icon">
+              <i class="fas fa-code git-icon"></i>
+            </div>
+            <div class = "skills-grid-title">
+              Software<br>Engineering
+            </div>
+            <div class = "skills-grid-description">
+              Background in computer science with solid foundations in software lifecycles, object-oriented programming, data structures & algorithms and web app development frameworks (e.g. Python Flask, Javascript Dev.).
+            </div>
+          </div>
+          <div class = "skills-grid-3">
+            <div class = "skills-grid-icon">
+              <i class="far fa-lightbulb git-icon"></i>
+            </div>
+            <div class = "skills-grid-title">
+              Information<br>Visualization
+            </div>
+            <div class = "skills-grid-description">
+              Comprehensive experience with Javascript, Python, HTML/CSS toolkits for pre-processing and visualizing large datasets. Academic understanding of data-vis and vis-psychology.
+            </div>
+          </div>
+          <div class = "skills-grid-4">
+            <div class = "skills-grid-icon">
+              <i class="fas fa-landmark git-icon"></i>
+            </div>
+            <div class = "skills-grid-title">
+              Business<br>& Finance
+            </div>
+            <div class = "skills-grid-description">
+              Bachelors in Finance, with experience working in Financial Intitutions and Financial Services. Full-understanding of foundational quant-finance models for Data Science.
+            </div>
+          </div>
+          <div class = "user-radar">
+          </div>
+          <div class = "hover-over">
+            <div>Hover Over Categories</div>
+          </div>
+        </div>
+        <div id = "contact" class = "contact-section">
+          <div class = "contact-info">
+          </div>
+          <div class = "contact-info-title">
+            Contact Me
+          </div>
+          <div class = "contact-info-line-grid">
+            <div class = "contact-info-line">
+            </div>
+          </div>
+          <div class = "contact-info-text">
+            US Phone:  +1 (732) 742-8094<br>
+            CN Phone:  +86 (186) 1671-2812<br>
+            Email:  alex.bogdanowicz@nyu.edu
+          </div>
+          <div class = "contact-linkedin">
+            <a href="https://www.linkedin.com/in/alexander-bogdanowicz/">
+              <i class="fab fa-linkedin git-icon"></i>
+            </a>
+          </div>
+          <div class = "contact-github">
+            <a href="https://github.com/akbog">
+              <i class="fab fa-github-square git-icon"></i>
+            </a>
+          </div>
+          <div class = "contact-email">
+            <a href="mailto:alex.bogdanowicz@nyu.edu">
+              <i class="fas fa-envelope-square git-icon"></i>
+            </a>
+          </div>
+          <div class = "contact-wechat">
+            <a href="https://msng.link/o/?Alexkbog=wc">
+              <i class="fab fa-weixin git-icon"></i>
+            </a>
+          </div>
+          <div class = "contact-resume">
+            <a href="./Files/Alexander_Bogdanowicz_Resume.pdf" class = "git-text">
+              <br>
+              <i class="far fa-file-pdf pdf-icon"></i>
+              &#160;Resume
+              <br><br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="JS/wordcloud.js"></script>
+  <script src="JS/radar.js"></script>
+  <script src="JS/user-radar.js"></script>
+  <!-- <script src="JS/jquery-3.4.1.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="JS/scroll.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <script>
+    window.addEventListener('load', AOS.refresh)
+    AOS.init({duration: 1200,});
+  </script>
+  <script>
+  var cloud = d3.layout.cloud;
+
+  var fill = d3.scaleOrdinal(d3.schemeGreens[9])
+  var fill = d3.scaleOrdinal(d3.schemeGreys[9])
+  var fill = d3.scaleOrdinal(d3.schemeBlues[9])
+  // var fill = d3.scaleSequential(d3.interpolatePiYG)
+  var margin = {top: 30, right: 10, bottom: 10, left: 10}
+  var width =document.getElementById("word-cloud").offsetWidth - margin.right - margin.left
+  var height = document.getElementById("word-cloud").offsetHeight - margin.top - margin.bottom
+
+  var layout = cloud()
+      .size([width, height])
+      .words(['NLP','Deep Learning', 'Statistics', 'Topic Modeling', 'Semantic Analysis',
+              'Classification & Clustering', ' Volatility', 'Information Visualization',
+              'Consulting', 'Business Analytics', 'Software Engineering', 'Urban Data',
+              'Python', 'Cryptocurrencies'].map(function(d) {
+        return {text: d, size: 10 + Math.random() * 50, test: "haha"};
+      }))
+      .padding(1)
+      // .rotate(function() { return ~~(Math.random() * 2) * 90; })
+      .rotate(0)
+      // .style('font-family', "Lato")
+      .font("Lato")
+      .fontSize(function(d) { return d.size; })
+      .on("end", draw);
+
+  layout.start();
+
+  function draw(words) {
+    d3.select("#word-cloud").append("svg")
+        .attr("width", layout.size()[0])
+        .attr("height", layout.size()[1])
+      .append("g")
+        .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+      .selectAll("text")
+        .data(words)
+      .enter().append("text")
+        .style("font-size", function(d) { return d.size + "px"; })
+        .style("font-family", "Impact")
+        .attr("text-anchor", "middle")
+        .style("fill", function(d, i) {return fill(i)})
+        .attr("transform", function(d) {
+          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        })
+        .text(function(d) { return d.text; });
+  }
+
+  </script>
+</html>

@@ -1,0 +1,133 @@
+.contact-info {
+  grid-column: 1/51;
+  grid-row: 15/35;
+  background: #212121;
+}
+
+.contact-info-title {
+  grid-column: 1/51;
+  grid-row: 17/18;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+.contact-info-line-grid {
+  grid-column: 22/30;
+  grid-row: 18;
+  position: relative;
+}
+
+.contact-info-line {
+  opacity: 0.5;
+}
+
+
+.contact-info-line:before {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2px;
+  background: white;
+  content: "";
+  width: 100%;
+  display: block;
+  z-index: 0;
+}
+
+.contact-section .git-icon {
+  color: #47c;
+  font-size: 3em;
+  margin: auto;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.contact-info-text {
+  grid-column: 20/32;
+  grid-row: 19/26;
+  font-size: .9em;
+  line-height:25px;
+  position: relative;
+  /* overflow-y: scroll; */
+}
+
+
+.contact-linkedin {
+  grid-column: 20/23;
+  grid-row: 25/28;
+  /* background-color: #47c; */
+}
+
+.contact-github {
+  grid-column: 23/26;
+  grid-row: 25/28;
+  /* background-color: #47c; */
+}
+
+.contact-email {
+  grid-column: 26/29;
+  grid-row: 25/28;
+  /* background-color: #47c; */
+}
+
+.contact-wechat {
+  grid-column: 29/32;
+  grid-row: 25/28;
+  /* background-color: #47c; */
+}
+
+.contact-linkedin:hover .git-icon,
+.contact-github:hover .git-icon,
+.contact-email:hover .git-icon,
+.contact-wechat:hover .git-icon {
+  color: #5e9516;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.git-text {
+  text-decoration: none;
+  color: #212121;
+  background-color: none;
+  font-size: 1.2em;
+}
+
+.contact-resume {
+  grid-column: 23/29;
+  grid-row:29/33;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.pdf-icon {
+  color: black;
+  /* font-size: 2em; */
+}
+
+.contact-resume:hover {
+  background-color: #dc3545;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.contact-resume:hover .git-text,
+.contact-resume:hover .pdf-icon {
+  color: white;
+}
+
+/* .pdf-icon:hover {
+  color: #5e9516;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+} */

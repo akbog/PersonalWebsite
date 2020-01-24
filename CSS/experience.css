@@ -1,0 +1,180 @@
+.gallery__img__exp__demo {
+  /* width: 100%; */
+  height: 100%;
+  object-fit:cover;
+  /* display: block; */
+  line-height: 0;
+  /* width: 40%;
+  height: 40%; */
+  border-radius: 30px;
+  /* object-fit: ; */
+  /* display: block; */
+  /* line-height: 0; */
+  /* float: left; */
+}
+
+/* [aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+} */
+
+.work-exp {
+  grid-column:7/44;
+  grid-row: 13/101;
+  position: relative;
+}
+
+.work-exp p, .work-exp h2 {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.grid-item-1 {
+  /* background-color: white; */
+  /* border-radius: 30px; */
+  grid-column: 10/41;
+  grid-row: 10/27;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  /* position: relative; */
+  text-align: left;
+  color: #47c;
+}
+
+.working-images {
+  grid-column: 1/18;
+  grid-row: 5/47;
+  position: relative;
+}
+
+.working-images img {
+  height: 100%;
+  width: 100%;
+  /* width: auto; */
+  /* display: block; */
+  /* line-height: 0; */
+
+  border-radius: 30px;
+  object-fit:cover;
+  /* line-height: 0; */
+}
+
+.working-title {
+  grid-column: 20/50;
+  grid-row: 7/9;
+  /* font-family: gotham roundeds; */
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.working-position {
+  grid-column: 20/50;
+  grid-row: 14;
+  color: #5e9516;
+  font-weight: bold;
+}
+
+.working-location {
+  grid-column: 20/50;
+  grid-row: 16;
+  color: #212121;
+}
+
+.working-description {
+  grid-column: 20/48;
+  grid-row: 21/44;
+  color: #303030;
+  font-weight: lighter;
+  font-size: .95em;
+  /* overflow-y: scroll; */
+  /* text-align: justify; */
+}
+
+.grid-item-2 {
+  grid-column: 10/41;
+  grid-row: 27/44;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  /* position: relative; */
+  text-align: left;
+  color: #47c;
+}
+
+.bg-pwc {
+  background-color: #F3BE26;
+}
+
+.grid-item-3 {
+  grid-column: 10/41;
+  grid-row: 44/61;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  /* position: relative; */
+  text-align: left;
+  color: #47c;
+}
+
+.grid-item-4 {
+  grid-column: 10/41;
+  grid-row: 61/78;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  /* position: relative; */
+  text-align: left;
+  color: #47c;
+}
+
+.bg-bdo {
+  background-color: #e8f4f8;
+  object-fit: fill;
+}
+
+.grid-item-5 {
+  grid-column: 10/41;
+  grid-row: 78/96;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  position: relative;
+  text-align: left;
+  color: #47c;
+}
+
+.grid-item-6 {
+  grid-column: 10/41;
+  grid-row: 96/112;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  position: relative;
+  text-align: left;
+  color: #47c;
+}
+
+.bg-firstbuild {
+  background-color: #e8f4f8;
+  /* max-width: 100%; */
+  object-fit: contain;
+}
+
+/* .experience-section {
+  grid-column: 1;
+  grid-row : 3/5;
+  background-color : white !important;
+  color: #212121;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+  position: relative;
+  grid-column-gap: 20px;
+  grid-row-gap: 15px;
+} */

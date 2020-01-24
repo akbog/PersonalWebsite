@@ -1,0 +1,101 @@
+
+b.nyu-shang {
+  color: #57068c;
+}
+
+.recent-work{
+  grid-column:35/50;
+  grid-row:5/30;
+  position: relative;
+}
+
+.research{
+  grid-column:35/50;
+  grid-row:30/50;
+  position: relative;
+}
+
+.description img {
+    border-radius: 50%;
+}
+
+.desc-profile{
+  grid-column:5/17;
+  grid-row: 12/27;
+}
+
+#word-cloud {
+  grid-column:2/50;
+  grid-row: 10/25;
+  font-family: "Lato", sans-serif !important;
+}
+
+.about-img-holder {
+  grid-column: 21/31;
+  grid-row: 9/22;
+  /* position: relative; */
+  /* margin: auto; */
+
+  /* margin: auto; */
+
+
+}
+
+.about-img-holder img {
+  /* width: 100%; */
+  height: 100%;
+  border-radius: 50%;
+  border: 10px solid white;
+  object-fit: cover;
+}
+
+.gallery__img__desc {
+  /* width: 50%;
+  height: 50%; */
+  object-fit:contain;
+  /* border-radius: 100%; */
+  /* margin: auto; */
+  /* display: block; */
+  /* line-height: 0; */
+  /* text-align: center; */
+  margin: auto;
+  /* padding-bottom: 2%; */
+}
+
+.description {
+  grid-column:11/41;
+  grid-row: 23/50;
+  text-align:center;
+  font-size: 1.2em;
+  /* background-color: white; */
+  /* border-radius: 30px;  */
+  /* color: #212121; */
+  color: white;
+  /* padding-left: -20%; */
+  /* padding-right: 5%; */
+  /* padding-top: 3%; */
+  overflow-y: scroll;
+  /* overflow-y: auto; */
+}
+
+.bio-link-icon {
+  color: #47c;
+}
+
+.no-under {
+  text-decoration: none;
+}
+
+.description:before {
+
+}
+
+.about-me{
+  grid-column:2/35;
+  grid-row:5/50;
+  position: relative;
+}
+
+#about .sec-line-left {
+  color: black;
+}

@@ -1,0 +1,210 @@
+/* .logo {
+  width:20%;
+  margin: 0;
+  padding: 0;
+} */
+
+.header {
+  overflow-x: hidden;
+}
+.title, .title h1{
+  position: fixed;
+  z-index: 3;
+  text-decoration: none;
+  font-family : "Lato", sans-serif !important;
+  color: #aaa;
+  text-decoration: none;
+  /* text-align: center; */
+  /* width: 100%; */
+  height:6%;
+  margin: 0;
+  padding: 0;
+  /* margin: 0 auto; */
+  /* background: #fff; */
+  /* box-shadow: 2px -3px 22px 1px black; */
+}
+
+.title h1 {
+  padding-left: 5%;
+  display: flex;
+  text-align: center;
+  /* text-align: center !important; */
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1 a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.title h1 a ,
+.title h1 a :after,
+.title h1 a :before {
+  transition: all 0.5s;
+}
+
+.title h1 a:hover {
+  color: #47c;
+}
+
+/* NAVIGATION */
+nav {
+  width: 100%;
+  /* float: right; */
+  text-decoration: none;
+  /* height: 10vh; */
+  /* text-align: right; */
+  position: fixed;
+  font-family : "Lato", sans-serif !important;
+  z-index: 2;
+  color: #aaa;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  background: #fff;
+  /* background: rgb(20,20,20,0.4); */
+  box-shadow: 0px 1px 6px 1px black;
+  /* padding: 50px 0; */
+  /* box-shadow: 0px 5px 0px #dedede; */
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+nav ul.title {
+  list-style: none;
+  text-align: left;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+nav ul li a {
+  display: inline-block;
+  /* padding: 15px; */
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: #47c;
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #47c;
+  height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+  background: 	rgb(60,179,113) !important;
+}
+
+nav.fill ul li a:hover {
+  color: #47c;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 0.5s forwards;
+  -webkit-animation: fill 0.5s forwards;
+  -moz-animation: fill 0.5s forwards;
+  opacity: 1;
+}
+
+/* SHIFT */
+/* nav.shift ul li a {
+  position:relative;
+  z-index: 1;
+}
+nav.shift ul li a:hover {
+  color: rgb(0,100,0);
+}
+nav.shift ul li a:after {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: 	rgb(60,179,113) !important;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+ */
+
+
+/* Keyframes */
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    color: #47c; /* This is how you set background*/
+  }
+}
+
+/* Keyframes */

@@ -1,0 +1,384 @@
+.gallery__img__pro {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  line-height: 0;
+  /* width: 40%;
+  height: 40%; */
+  border-radius: 5px;
+  /* object-fit: ; */
+  /* display: block; */
+  /* line-height: 0; */
+  /* float: left; */
+}
+
+/* .git-icon {
+  color: black;
+} */
+
+.left-grid-1 {
+  /* background-color: rgb(108, 117, 125, 0.7); */
+  /* border-radius: 5px; */
+  grid-column: 2/50;
+  grid-row: 10/34;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  text-align: left;
+  /* color: #47c; */
+  color: white;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.left-grid-1:hover,
+.right-grid-2:hover,
+.left-grid-3:hover,
+.right-grid-4:hover,
+.left-grid-5:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  /* -webkit-transition: background-color 0.5s */
+  background-color: white;
+	/* -webkit-filter: blur(4px);
+	filter:  blur(4px);  */
+}
+
+.left-grid-1:hover .left-project-title,
+.right-grid-2:hover .right-project-title,
+.left-grid-3:hover .left-project-title,
+.right-grid-4:hover .right-project-title,
+.left-grid-5:hover .left-project-title {
+  color: #47c;
+}
+
+.left-grid-1:hover .left-project-subtitle,
+.right-grid-2:hover .right-project-subtitle,
+.left-grid-3:hover .left-project-subtitle,
+.right-grid-4:hover .right-project-subtitle,
+.left-grid-5:hover .left-project-subtitle {
+  color: #5e9516;
+}
+
+.left-grid-1:hover .left-project-description,
+.right-grid-2:hover .right-project-description,
+.left-grid-3:hover .left-project-description,
+.right-grid-4:hover .right-project-description,
+.left-grid-5:hover .left-project-description {
+  color: #303030;
+}
+
+.left-grid-1:hover .left-button-git,
+.right-grid-2:hover .right-button-git,
+.left-grid-3:hover .left-button-git,
+.right-grid-4:hover .right-button-git,
+.left-grid-5:hover .left-button-git,
+.left-grid-1:hover .left-button-paper,
+.right-grid-2:hover .right-button-paper,
+.left-grid-3:hover .left-button-paper,
+.right-grid-4:hover .right-button-paper,
+.left-grid-5:hover .left-button-paper,
+.left-grid-1:hover .left-button-demo,
+.right-grid-2:hover .right-button-demo,
+.left-grid-3:hover .left-button-demo,
+.right-grid-4:hover .right-button-demo,
+.left-grid-5:hover .left-button-demo,
+.left-grid-1:hover .git-text,
+.right-grid-2:hover .git-text,
+.left-grid-3:hover .git-text,
+.right-grid-4:hover .git-text,
+.left-grid-5:hover .git-text,
+.left-grid-1:hover .git-icon,
+.right-grid-2:hover .git-icon,
+.left-grid-3:hover .git-icon,
+.right-grid-4:hover .git-icon,
+.left-grid-5:hover .git-icon {
+  background-color: #47c;
+  color: white;
+}
+
+.left-grid-1:hover .left-button-git:hover,
+.right-grid-2:hover .right-button-git:hover,
+.left-grid-3:hover .left-button-git:hover,
+.right-grid-4:hover .right-button-git:hover,
+.left-grid-5:hover .left-button-git:hover,
+.left-grid-1:hover .left-button-paper:hover,
+.right-grid-2:hover .right-button-paper:hover,
+.left-grid-3:hover .left-button-paper:hover,
+.right-grid-4:hover .right-button-paper:hover,
+.left-grid-5:hover .left-button-paper:hover,
+.left-grid-1:hover .left-button-demo:hover,
+.right-grid-2:hover .right-button-demo:hover,
+.left-grid-3:hover .left-button-demo:hover,
+.right-grid-4:hover .right-button-demo:hover,
+.left-grid-5:hover .left-button-demo:hover {
+  background: #5e9516;
+}
+
+.left-grid-1:hover .left-button-git:hover .git-text,
+.right-grid-2:hover .right-button-git:hover .git-text,
+.left-grid-3:hover .left-button-git:hover .git-text,
+.right-grid-4:hover .right-button-git:hover .git-text,
+.left-grid-5:hover .left-button-git:hover .git-text,
+.left-grid-1:hover .left-button-paper:hover .git-text,
+.right-grid-2:hover .right-button-paper:hover .git-text,
+.left-grid-3:hover .left-button-paper:hover .git-text,
+.right-grid-4:hover .right-button-paper:hover .git-text,
+.left-grid-5:hover .left-button-paper:hover .git-text,
+.left-grid-1:hover .left-button-demo:hover .git-text,
+.right-grid-2:hover .right-button-demo:hover .git-text,
+.left-grid-3:hover .left-button-demo:hover .git-text,
+.right-grid-4:hover .right-button-demo:hover .git-text,
+.left-grid-5:hover .left-button-demo:hover .git-text,
+.left-grid-1:hover .left-button-git:hover .git-icon,
+.right-grid-2:hover .right-button-git:hover .git-icon,
+.left-grid-3:hover .left-button-git:hover .git-icon,
+.right-grid-4:hover .right-button-git:hover .git-icon,
+.left-grid-5:hover .left-button-git:hover .git-icon,
+.left-grid-1:hover .left-button-paper:hover .git-icon,
+.right-grid-2:hover .right-button-paper:hover .git-icon,
+.left-grid-3:hover .left-button-paper:hover .git-icon,
+.right-grid-4:hover .right-button-paper:hover .git-icon,
+.left-grid-5:hover .left-button-paper:hover .git-icon,
+.left-grid-1:hover .left-button-demo:hover .git-icon,
+.right-grid-2:hover .right-button-demo:hover .git-icon,
+.left-grid-3:hover .left-button-demo:hover .git-icon,
+.right-grid-4:hover .right-button-demo:hover .git-icon,
+.left-grid-5:hover .left-button-demo:hover .git-icon {
+  background: #5e9516;
+}
+
+.left-project-images {
+  grid-column: 3/17;
+  grid-row: 8/44;
+  /* position: inherit; */
+}
+
+.left-project-title {
+  grid-column: 20/50;
+  grid-row: 7/9;
+  /* font-family: gotham roundeds; */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.left-project-subtitle {
+  grid-column: 20/50;
+  grid-row: 12;
+  /* color: #5e9516; */
+  color: white;
+  font-weight: bold;
+}
+
+.left-project-description {
+  grid-column: 20/48;
+  grid-row: 17/44;
+  text-align:justify;
+  /* color: #303030; */
+  color: white;
+  font-weight: lighter;
+  font-size: .95em;
+}
+
+.left-button-git {
+  grid-column: 20/25;
+  grid-row:35/41;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.left-button-paper {
+  grid-column: 26/31;
+  grid-row:35/41;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.left-button-demo {
+  grid-column: 32/37;
+  grid-row:35/41;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.right-button-git {
+  grid-column: 15/20;
+  grid-row:35/41;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.right-button-paper {
+  grid-column: 21/26;
+  grid-row:35/41;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.right-button-demo {
+  grid-column: 27/32;
+  grid-row:35/41;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.git-text {
+  text-decoration: none;
+  color: #dc3545;
+  background-color: none;
+}
+
+.right-grid-2 {
+  /* background-color: rgb(108, 117, 125, 0.7); */
+  /* border-radius: 5px; */
+  grid-column: 2/50;
+  grid-row: 34/58;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  text-align: left;
+  /* color: #47c; */
+  color: white;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+
+.right-project-images {
+  grid-column: 34/49;
+  grid-row: 8/44;
+  /* position: inherit; */
+}
+
+.right-project-title {
+  grid-column: 1/32;
+  grid-row: 7/9;
+  /* font-family: gotham roundeds; */
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.right-project-subtitle {
+  grid-column: 1/32;
+  grid-row: 12;
+  text-align: right;
+  /* color: #5e9516; */
+  color: white;
+  font-weight: bold;
+}
+
+.right-project-description {
+  grid-column: 4/32;
+  /* grid-column: 20/48; */
+  grid-row: 17/44;
+  /* color: #303030; */
+  text-align: right;
+  text-align:justify;
+  color: white;
+  font-weight: lighter;
+  font-size: .95em;
+}
+
+.left-grid-3 {
+  /* background-color: rgb(108, 117, 125, 0.7); */
+  /* border-radius: 5px; */
+  grid-column: 2/50;
+  grid-row: 58/82;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  text-align: left;
+  /* color: #47c; */
+  color: white;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.right-grid-4 {
+  /* background-color: rgb(108, 117, 125, 0.7); */
+  /* border-radius: 5px; */
+  grid-column: 2/50;
+  grid-row: 82/106;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  text-align: left;
+  /* color: #47c; */
+  color: white;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+
+}
+
+.left-grid-5 {
+  /* background-color: rgb(108, 117, 125, 0.7); */
+  /* border-radius: 5px; */
+  grid-column: 2/50;
+  grid-row: 106/130;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  text-align: left;
+  /* color: #47c; */
+  color: white;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+
+/* .body-class:before {
+  content:"";
+  position: absolute;
+  left:-5%;
+  right:0;
+  z-index:-1;
+  display: block;
+  background-image: url("tedx.jpg");
+  background-size:cover;
+  width: 110%;
+  height: 100vh;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+} */
